@@ -32,6 +32,8 @@ fetch("https://api.github.com/users")
 
 const showUser = (data) => {
   console.log(data)
+
+//   htlm sayfasıncda section oluşturduk ve id sine users verdik.bunu inner html ile yaptık şimdilikl..
   const userSection = document.getElementById("users")
 
   data.forEach((user) => {
